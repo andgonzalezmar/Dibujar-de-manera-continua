@@ -17,12 +17,5 @@ void draw(){
   for(int i = 0; i < x.length; i++){
     ellipse(x[i],y[i],20,20);
   }
-  stroke(255);
-  strokeWeight(8);
-  if(mousePressed && mouseX>90 && mouseX<150 && mouseY<140 && mouseY>80){
-    line(120,110,mouseX,mouseY);
-    if(mousePressed && mouseX>90 && mouseX<150 && mouseY<590 && mouseY>530){
-    line(120,110,345,110);
-    }
-  }
+  
 }
